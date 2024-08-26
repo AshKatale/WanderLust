@@ -47,10 +47,11 @@ The application should be accessible at `http://localhost:8080`.
 ## Configuration
 Configuration details such as environment variables should be defined in a `.env` file. Example:
 ```env
-DB_HOST=your_database_host
-DB_USER=your_database_user
-DB_PASS=your_database_password
-DB_KEY=your_key
+CLOUD_NAME=your_cloud_host
+CLOUD_API_KEY=your_api_key
+CLOUD_API_SECRET=your_cloud_secret
+ATLASDB_URL=your_db_url
+SECRET=your_secret_string
 ```
 
 ## Dependencies
