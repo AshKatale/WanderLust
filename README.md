@@ -40,7 +40,7 @@ To get a local copy up and running, follow these steps:
 ## Usage
 After installation, start the application with:
 ```bash
-npm start
+node app.js
 ```
 The application should be accessible at `http://localhost:8080`.
 
